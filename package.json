@@ -1,0 +1,33 @@
+{
+  "name": "aqualux",
+  "homepage": ".",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "antd": "^4.18.4",
+    "axios": "^0.26.0",
+    "craco-less": "^2.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^4.0",
+    "react-tabs": "^3.0.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "set \"GENERATE_SOURCEMAP=false\" &&  craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
